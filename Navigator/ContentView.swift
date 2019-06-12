@@ -10,26 +10,39 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        //for verticle stack//
-        //name of place//
-        VStack(alignment: .leading){
-            Text("Niagara Falls")
-                .font(.title)
-                .color(.black)
-                //for horizontal stack//
-                HStack {
-                    //for state//
-                    Text("Niagara")
-                    .font(.subheadline)
-                    .color(.gray)
-                    //for province//ss
-                    Text("Ontario")
-                    .font(.subheadline)
-                    .color(.gray)
-                }
-        }
+        VStack{
+            //MapView//
+            MapView()
+                .frame(height: 300)
+                //to avoid safe are on top//
+                .edgesIgnoringSafeArea(.top)
+            //for image//
+            CircleImgView()
+                .offset(y: -150)
+                .padding(.bottom, -150)
+            //for verticle stack//
+            //name of place//
+            VStack(alignment: .leading){
+                Text("Niagara Falls")
+                    .font(.title)
+                    .color(.black)
+                    //for horizontal stack//
+                    HStack {
+                        //for state//
+                        Text("Niagara")
+                            .font(.subheadline)
+                            .color(.gray)
+                        //for province//ss
+                        Text("Ontario")
+                            .font(.subheadline)
+                            .color(.gray)
+                    }
+            }
         //to give padding//
         .padding()
+        //to push content at top//
+        Spacer()
+        }
     }
 }
 
