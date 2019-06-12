@@ -15,6 +15,7 @@
 		9FE3568822B0930700A27778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE3568622B0930700A27778 /* LaunchScreen.storyboard */; };
 		9FE3569322B0930700A27778 /* NavigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3569222B0930700A27778 /* NavigatorTests.swift */; };
 		9FE3569E22B0930700A27778 /* NavigatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3569D22B0930700A27778 /* NavigatorUITests.swift */; };
+		9FE356AC22B0AD5300A27778 /* CircleImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE356AB22B0AD5300A27778 /* CircleImgView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9FE3569922B0930700A27778 /* NavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE3569D22B0930700A27778 /* NavigatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorUITests.swift; sourceTree = "<group>"; };
 		9FE3569F22B0930700A27778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE356AB22B0AD5300A27778 /* CircleImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImgView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				9FE3568122B0930700A27778 /* Assets.xcassets */,
 				9FE3568622B0930700A27778 /* LaunchScreen.storyboard */,
 				9FE3568922B0930700A27778 /* Info.plist */,
+				9FE356AB22B0AD5300A27778 /* CircleImgView.swift */,
 				9FE3568322B0930700A27778 /* Preview Content */,
 			);
 			path = Navigator;
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE356AC22B0AD5300A27778 /* CircleImgView.swift in Sources */,
 				9FE3567C22B0930500A27778 /* AppDelegate.swift in Sources */,
 				9FE3567E22B0930500A27778 /* SceneDelegate.swift in Sources */,
 				9FE3568022B0930500A27778 /* ContentView.swift in Sources */,
