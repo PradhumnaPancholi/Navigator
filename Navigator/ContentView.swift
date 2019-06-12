@@ -10,9 +10,26 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Pradhumna Pancholi")
-            .font(.title)
-            .color(.gray)
+        //for verticle stack//
+        //name of place//
+        VStack(alignment: .leading){
+            Text("Niagara Falls")
+                .font(.title)
+                .color(.black)
+                //for horizontal stack//
+                HStack {
+                    //for state//
+                    Text("Niagara")
+                    .font(.subheadline)
+                    .color(.gray)
+                    //for province//ss
+                    Text("Ontario")
+                    .font(.subheadline)
+                    .color(.gray)
+                }
+        }
+        //to give padding//
+        .padding()
     }
 }
 
