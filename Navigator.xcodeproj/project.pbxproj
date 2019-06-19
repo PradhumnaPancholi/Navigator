@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FADE5D122B9FCA10073D1D2 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FADE5D022B9FCA10073D1D2 /* Landmark.swift */; };
 		9FE3567C22B0930500A27778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3567B22B0930500A27778 /* AppDelegate.swift */; };
 		9FE3567E22B0930500A27778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3567D22B0930500A27778 /* SceneDelegate.swift */; };
 		9FE3568022B0930500A27778 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3567F22B0930500A27778 /* ContentView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9FADE5D022B9FCA10073D1D2 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		9FE3567822B0930500A27778 /* Navigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE3567B22B0930500A27778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE3567D22B0930500A27778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FADE5CF22B9FC710073D1D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FADE5D022B9FCA10073D1D2 /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9FE3566F22B0930500A27778 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		9FE3567A22B0930500A27778 /* Navigator */ = {
 			isa = PBXGroup;
 			children = (
+				9FADE5CF22B9FC710073D1D2 /* Models */,
 				9FE3567B22B0930500A27778 /* AppDelegate.swift */,
 				9FE3567D22B0930500A27778 /* SceneDelegate.swift */,
 				9FE3567F22B0930500A27778 /* ContentView.swift */,
@@ -278,6 +289,7 @@
 				9FE356B022B0AF9D00A27778 /* MapView.swift in Sources */,
 				9FE3567E22B0930500A27778 /* SceneDelegate.swift in Sources */,
 				9FE3568022B0930500A27778 /* ContentView.swift in Sources */,
+				9FADE5D122B9FCA10073D1D2 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
